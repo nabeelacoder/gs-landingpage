@@ -1,0 +1,58 @@
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 0;
+}
+.container-left img,
+.container-right{
+    width: 400px;
+    height: 300px;
+}
+.container-right{
+    background-color: peachpuff;
+    padding-left: 40px;
+}
+.container-right h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.container-right .form-container input{
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+}
+::placeholder{
+    color: black;
+    font-weight: 500;
+}
+
+.container-right .form-container .submit{
+    padding: 10px 25px;
+    background-color: lightblue;
+    margin: auto 0;
+    border: 4px solid;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#message{
+    writing-mode: vertical-lr;
+    padding: 10px;
+    color: cadetblue;
+    font-weight: 600;
+}
